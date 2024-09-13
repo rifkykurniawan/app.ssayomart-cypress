@@ -1,0 +1,9 @@
+{
+    "registerPage":{
+        "inputUsername":":nth-child(2) > .input-field",
+        "inputEmail":":nth-child(4) > .input-field",
+        "inputPassword":":nth-child(6) > .input-field",
+        "inputConfirmPassword":":nth-child(8) > .input-field",
+        "daftarButton":"#btn-register"
+    }
+}

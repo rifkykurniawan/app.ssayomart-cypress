@@ -1,0 +1,32 @@
+{
+    "Home_page":{
+        "profileIcon": ":nth-child(2) > .nav-link > .bi",
+        "iconSsayomart":".image-fluid",
+        "iconUser":"#navbarDropdown > .bi",
+        "keluarButton":".flex-row > .dropdown > .dropdown-menu > :nth-child(4) > .dropdown-item",
+        "profileIcon2": "#navbarDropdown",
+        "categoryDropdown":".me-auto > .dropdown > .nav-link",
+        "changeLanguage":".nav-item > .btn",
+        "selectEnglishLanguage":"[href='https://apps.ssayomart.com/index.php/lang/en']"
+    },
+    "Category_Dropdown":{
+        "minyakDropdown":".me-auto > .dropdown > .dropdown-menu > :nth-child(1) > .dropdown-item",
+        "sausDropdown":".me-auto > .dropdown > .dropdown-menu > :nth-child(2) > .dropdown-item",
+        "tepungDropdown":":nth-child(3) > .dropdown-item",
+        "mieDropdown":".me-auto > .dropdown > .dropdown-menu > :nth-child(4) > .dropdown-item",
+        "makananInstantDropdown":":nth-child(5) > .dropdown-item",
+        "susuDropdown":":nth-child(6) > .dropdown-item",
+        "makananKalengDropdown":":nth-child(7) > .dropdown-item",
+        "rumputLautDropdown":":nth-child(8) > .dropdown-item",
+        "berasDropdown":":nth-child(9) > .dropdown-item",
+        "perawatanDiriDropdown":":nth-child(10) > .dropdown-item",
+        "snackDropdown":":nth-child(11) > .dropdown-item",
+        "permenDropdown":":nth-child(12) > .dropdown-item",
+        "minumanDropdown":":nth-child(13) > .dropdown-item",
+        "makananKesehatanDropdown":":nth-child(14) > .dropdown-item",
+        "dagingDropdown":":nth-child(15) > .dropdown-item",
+        "makananBekuDropdown":":nth-child(16) > .dropdown-item",
+        "produk21Dropdown":":nth-child(17) > .dropdown-item"
+    }
+}
+

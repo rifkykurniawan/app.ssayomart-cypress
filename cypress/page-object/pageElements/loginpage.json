@@ -1,0 +1,10 @@
+{
+    "login_page":{
+        "daftarButton":"h6 > .toggle",
+        "inputEmail":":nth-child(2) > .input-field",
+        "inputPassword":".position-relative > .input-field",
+        "masukButton":"#btn-login",
+        "warningMessage":".small",
+        "alertLogout":".alert"
+    }
+}
