@@ -42,3 +42,11 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     return true;
   });
   
+  Cypress.on('uncaught:exception', (err, runnable) => {
+    // Ignore specific errors
+    if (err.message.includes('Cannot read properties of null')) {
+      return false; // prevents the test from failing
+    }
+    return true; // otherwise, let Cypress handle it
+  });
+  

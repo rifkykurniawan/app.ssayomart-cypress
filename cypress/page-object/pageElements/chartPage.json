@@ -1,0 +1,9 @@
+{
+    "chartPage":{
+        "deleteLastButton":".btn-lg > .bi",
+        "deleteButtonItem1":":nth-child(4) > .card-body > .flex-row > .justify-content-between > .btn-lg",
+        "deleteButtonItem2":":nth-child(5) > .card-body > .flex-row > .justify-content-between > .btn-lg",
+        "selectAllButton":"#selectAllDesktop",
+        "checkoutButton":"#btnCheckout"
+    }
+}
