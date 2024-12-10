@@ -1,0 +1,11 @@
+{
+  "login": {
+    "registeredEmail": "ariawanputra@gmail.com",
+    "validPassword": "megamendung",
+    "newUsername": "ariawanputra",
+    "newEmail": "ariawanputra@gmail.com",
+    "newPassword": "megamendung",
+    "invalidEmail": "invalidemail@gmail.com",
+    "invalidPassword": "invalidpassword"
+  }
+}

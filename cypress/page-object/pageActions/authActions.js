@@ -24,10 +24,10 @@ export class authActions {
     clickDaftarButton() {
         cy.get(registerLocator.registerPage.daftarButton).click();
     }
-    inputRegisteredEmail(email) {
+    inputEmail(email) {
         cy.get(loginLocator.login_page.inputEmail).type(email);
     }
-    inputRegisteredPassword(password) {
+    inputPassword(password) {
         cy.get(loginLocator.login_page.inputPassword).type(password);
     }
     clickMasuk() {

@@ -13,7 +13,7 @@ Before running the tests, make sure you have the following installed:
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/rifkykurniawan/app.ssayomart-cypress/new/main?filename=README.md
+git clone https://github.com/rifkykurniawan/app.ssayomart-cypress.git
 cd your-project-name
 ```
 

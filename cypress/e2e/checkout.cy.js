@@ -10,8 +10,8 @@ describe('Checkout Module', () => {
     beforeEach(() => {
         cy.visit('https://apps.ssayomart.com')
         auth_Actions.clickProfile();
-        auth_Actions.inputRegisteredEmail('ariawanputra@gmail.com');
-        auth_Actions.inputRegisteredPassword('megamendung');
+        auth_Actions.inputEmail(data.login.registeredEmail);
+        auth_Actions.inputPassword(data.login.validPassword);
         auth_Actions.clickMasuk();
         auth_Actions.changeLanguage();
         auth_Actions.selectEnglishLanguage();
