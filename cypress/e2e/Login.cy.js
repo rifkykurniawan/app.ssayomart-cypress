@@ -5,7 +5,7 @@ const auth_Actions = new authActions();
 
 describe('Authentication Module', () => {
   beforeEach(() => {
-    cy.visit('https://apps.ssayomart.com')
+    cy.visit(data.URL.ssayomart)
   });
   it('TC001 - Success sign up with valid data', () => {
     auth_Actions.clickProfile();

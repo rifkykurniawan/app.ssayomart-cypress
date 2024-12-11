@@ -26,7 +26,8 @@
         "makananKesehatanDropdown":":nth-child(14) > .dropdown-item",
         "dagingDropdown":":nth-child(15) > .dropdown-item",
         "makananBekuDropdown":":nth-child(16) > .dropdown-item",
-        "produk21Dropdown":":nth-child(17) > .dropdown-item"
+        "produk21Dropdown":":nth-child(17) > .dropdown-item",
+        "bumbuDropdown":":nth-child(9) > .dropdown-item"
     }
 }
 

@@ -1,8 +1,8 @@
 {
     "productPage":{
-        "plusButtonProduct1":"#button-container-1025 > .button",
-        "plusButtonProduct2":"#button-container-1026 > .button",
-        "plusButtonProduct3":"#button-container-1031 > .button",
+        "plusButtonProduct1":"#button-container-866 > .button",
+        "plusButtonProduct2":"#button-container-852 > .button",
+        "plusButtonProduct3":"#button-container-800 > .button",
         "chartButton":".bi-cart-fill"
     }
 }

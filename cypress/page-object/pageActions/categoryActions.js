@@ -76,4 +76,7 @@ export class categoryActions {
     clickProduk21Dropdown() {
         cy.get(homeLocator.Category_Dropdown.produk21Dropdown).click();
     }
+    clickBumbuDropdown() {
+        cy.get(homeLocator.Category_Dropdown.bumbuDropdown).click();
+    }
 }

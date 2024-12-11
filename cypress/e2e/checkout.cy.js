@@ -1,6 +1,7 @@
 import { checkoutActions } from "../page-object/pageActions/checkoutActions";
 import { categoryActions } from "../page-object/pageActions/categoryActions";
 import { authActions } from "../page-object/pageActions/authActions";
+const data = require('../fixtures/data.json');
 
 const checkout_Actions = new checkoutActions();
 const category_Actions = new categoryActions();
@@ -8,7 +9,7 @@ const auth_Actions = new authActions();
 
 describe('Checkout Module', () => {
     beforeEach(() => {
-        cy.visit('https://apps.ssayomart.com')
+        cy.visit(data.URL.ssayomart)
         auth_Actions.clickProfile();
         auth_Actions.inputEmail(data.login.registeredEmail);
         auth_Actions.inputPassword(data.login.validPassword);
@@ -16,7 +17,7 @@ describe('Checkout Module', () => {
         auth_Actions.changeLanguage();
         auth_Actions.selectEnglishLanguage();
         category_Actions.clickCategoryDropdown();
-        category_Actions.clickMinyakDropdown();
+        category_Actions.clickBumbuDropdown();
     });
     it('TC-001 Success checkout one item', () => {
         checkout_Actions.clickPlusButtonOneProduct();

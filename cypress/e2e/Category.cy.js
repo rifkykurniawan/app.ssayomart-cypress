@@ -1,5 +1,6 @@
 import { categoryActions } from "../page-object/pageActions/categoryActions";
 import { authActions } from "../page-object/pageActions/authActions";
+const data = require('../fixtures/data.json');
 
 const category_Actions = new categoryActions();
 const auth_Actions = new authActions();
@@ -7,7 +8,7 @@ const auth_Actions = new authActions();
 
 describe('Category Module', () => {
     beforeEach(() => {
-        cy.visit('https://apps.ssayomart.com')
+        cy.visit(data.URL.ssayomart)
         auth_Actions.clickProfile();
         auth_Actions.inputEmail(data.login.registeredEmail);
         auth_Actions.inputPassword(data.login.validPassword);

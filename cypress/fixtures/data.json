@@ -6,6 +6,10 @@
     "newEmail": "ariawanputra@gmail.com",
     "newPassword": "megamendung",
     "invalidEmail": "invalidemail@gmail.com",
-    "invalidPassword": "invalidpassword"
+    "invalidPassword": "invalidPassword"
+  },
+  "URL": {
+    "ssayomart": "https://apps.ssayomart.com"
   }
 }
+
